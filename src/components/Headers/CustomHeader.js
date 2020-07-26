@@ -31,15 +31,15 @@ const links = [
   },
   {
     icon: () => <FaFacebookF className="fa-icons" />, 
-    url: 'http://facebook.com/angelikafavoretto' 
+    url: 'https://www.facebook.com/angelikafavoretto.terapeuta' 
   },
   {
     icon: () => <FaYoutube className="fa-icons" />, 
-    url: 'http://youtube.com/angelikafavoretto' 
+    url: 'https://www.youtube.com/user/angelika2558' 
   },
   {
     icon: () => <FaTelegramPlane className="fa-icons" />, 
-    url: 'http://telegram.com/angelikafavoretto' 
+    url: 'https://t.me/angelikafavoretto' 
   }
 ]
 
