@@ -4,7 +4,6 @@ import {
   NavbarBrand,
   Navbar,
   Container,
-  UncontrolledTooltip,
 } from "reactstrap";
 
 function IndexNavbar() {
@@ -34,15 +33,11 @@ function IndexNavbar() {
         <Container>
           <div className="navbar-translate">
             <NavbarBrand
-              href="https://www.creative-tim.com/"
-              target="_blank"
+              href="https://www.angelikafavoretto.com.br/"
               id="navbar-brand"
             >
               ANGELIKA FAVORETTO
             </NavbarBrand>
-            <UncontrolledTooltip target="#navbar-brand">
-              Esses estilos pertencem a Invision. Código por Creative Tim.
-            </UncontrolledTooltip>
           </div>
         </Container>
       </Navbar>

@@ -23,7 +23,6 @@ import '../../assets/css/custom.css';
 import transparente from '../../assets/img/transparente-cropped.png'
 import logo from '../../assets/img/logo-angelika-favorreto-pb.png'
 import { FaFacebookF, FaInstagram, FaTelegramPlane, FaYoutube } from 'react-icons/fa'
-import { Link } from "react-router-dom";
 
 const links = [
   {
@@ -74,7 +73,7 @@ function IndexHeader() {
         <div
           className="page-header-image"
           style={{
-            backgroundImage: "url(" + require("assets/img/sol.jpg") + ")",
+            backgroundImage: "url(" + require("assets/img/fundo.jpg") + ")",
           }}
           ref={pageHeader}
         ></div>
@@ -87,13 +86,13 @@ function IndexHeader() {
                                 alt="..."
                                 src={transparente}>        
                   </CardImg>
-                  <CardImg className="card-logo"
+                  <CardImg className="card-logo" onClick ={ () => location.href = "https://angelikafavoretto.com.br"}
                       alt="..."
                       src={logo}
-                      bottom>
+                      >
                   </CardImg>
                   <CardBody className="custom-card-body">
-                    <h3>Novo Eu. Novo Nós. Novo Mundo.</h3>
+                    <h3>Novo Eu . Novo Nós . Novo Mundo</h3>
                   </CardBody>
                   <Container style={{height: "auto"}}>
                     <Row className="icons-row">
@@ -101,9 +100,6 @@ function IndexHeader() {
                         links.map( (link, index) => {
                           return (
                             <Col xs={3}>
-                              <Link href="http://facebook.com.br">
-                                {link.icon}
-                              </Link>
                               <button onClick={ () => location.href = (link.url)} className='social-media-link' >
                                 { link.icon() }
                               </button> 

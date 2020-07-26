@@ -12,34 +12,10 @@ function TransparentFooter() {
           <ul>
             <li>
               <a
-                href="https://www.instagram.com/angelikafavoretto"
+                href="https://www.angelikafavoretto.com.br"
                 target="_blank"
               >
-                INSTAGRAM
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://facebook.com"
-                target="_blank"
-              >
-                FACEBOOK
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://youtube.com/angelikafavoretto"
-                target="_blank"
-              >
-                YOUTUBE
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://telegram.com"
-                target="_blank"
-              >
-                TELEGRAM
+                www.angelikafavoretto.com.br
               </a>
             </li>
           </ul>
