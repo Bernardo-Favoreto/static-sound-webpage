@@ -7,23 +7,14 @@ import{
   Card,
   CardImg,
   CardBody,
-  Navbar,
-  UncontrolledTooltip,
-  NavLink,
-  Nav,
-  CardText,
   Row,
   Col,
-  NavItem,
-  CardColumns
 } from "reactstrap";
 
 
 // core components
 //import { Container } from "reactstrap";
 // core components
-import {SocialMediaIconsReact} from 'social-media-icons-react'
-import soundfile from "../../assets/sounds/teste.ogg";
 import mp3file from "../../assets/sounds/teste.mp3";
 import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
